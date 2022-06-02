@@ -1,16 +1,17 @@
 baseURL: https://adamijak.github.io/
 languageCode: en-us
-title: ExampleSite
+title: My Blog
 theme: PaperMod
 
 params:
-  menu:
-    main:
-      - identifier: pages
-        name: pages
-        url: /pages/
-        weight: 10
-      - identifier: about
-        name: about
-        url: /about/
-        weight: 20
+
+menu:
+  main:
+    - identifier: pages
+      name: pages
+      url: /pages/
+      weight: 10
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 20
