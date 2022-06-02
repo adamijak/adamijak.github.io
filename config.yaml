@@ -5,15 +5,11 @@ theme = "PaperMod"
 
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: pages
+      name: pages
+      url: /pages/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: about
+      name: about
+      url: /about/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
