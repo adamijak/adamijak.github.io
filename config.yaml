@@ -1,0 +1,19 @@
+baseURL = 'https://adamijak.github.io/'
+languageCode = 'en-us'
+title = 'My blog'
+theme = "PaperMod"
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
