@@ -3,13 +3,14 @@ languageCode = 'en-us'
 title = 'My blog'
 theme = "PaperMod"
 
-menu:
-  main:
-    - identifier: pages
-      name: pages
-      url: /pages/
-      weight: 10
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 20
+params:
+  menu:
+    main:
+      - identifier: pages
+        name: pages
+        url: /pages/
+        weight: 10
+      - identifier: about
+        name: about
+        url: /about/
+        weight: 20
