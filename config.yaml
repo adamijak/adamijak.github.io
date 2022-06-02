@@ -1,17 +1,46 @@
 baseURL: https://adamijak.github.io/
 languageCode: en-us
-title: My Blog
+title: adamijak
 theme: PaperMod
 
 params:
+  # ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  # ShowBreadCrumbs: true
+  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+
+  profileMode:
+          enabled: true
+          title: "Welcome to adamijak blog" # optional default will be site title
+          subtitle: "Programming | Mountaineering | Others"
+          imageUrl: "https://avatars.githubusercontent.com/u/24510461?v=4" # optional
+          imageTitle: "Profile" # optional
+          imageWidth: 200 # custom size
+          imageHeight: 200 # custom size
+          buttons:
+            - name: Posts
+              url: posts
+
+  socialIcons:
+      - name: github
+        url: https://github.com/adamijak
+      - name: email
+        url: "mailto:sober-don0v@icloud.com"
+
+  editPost:
+    URL: "https://github.com/adamijak/adamijak.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
 menu:
   main:
-    - identifier: pages
-      name: pages
-      url: /pages/
+    - identifier: posts
+      name: Posts
+      url: /posts/
       weight: 10
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 20
