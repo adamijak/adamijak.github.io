@@ -4,7 +4,7 @@ title: adamijak
 theme: PaperMod
 
 params:
-  math: false
+  math: true
   # ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
