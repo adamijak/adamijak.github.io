@@ -9,7 +9,7 @@ params:
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
-  ShowPostNavLinks: true
+  # ShowPostNavLinks: true
   # ShowBreadCrumbs: true
   ShowWordCount: true
   ShowCodeCopyButtons: true
