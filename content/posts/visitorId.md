@@ -1,6 +1,6 @@
 ---
 title: "Show visitor id"
-date: 2022-05-24T00:28:40+02:00
+date: 2022-09-22
 summary: "Show visitor Id using fingerprintjs"
 ---
 
