@@ -36,10 +36,12 @@ Fill the form
 | Key | Value |
 |---|---|
 | Type | CalDAV |
-| Name | {according your wish} |
-| Colour | {according your wish} |
+| Name | leave blank, will be filled automatically |
+| Colour | leave blank, will be filled automatically |
 | URL | https://caldav.icloud.com |
-| User | {your Apple ID email} |
+| User | your Apple ID email |
+| Email | leave blank, will be filled automatically |
+| Server handles meeting invitations | True |
 
 and click *Find callendars* button.
 You will be asked for password.
