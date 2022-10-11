@@ -3,6 +3,10 @@ title: "Awesome websites"
 date: 2022-10-11
 summary: "My list of awesome websites"
 ---
+## Media
+
+https://diff.blog/ list of blogs
+
 ## Share
 
 - https://www.sharedrop.io/ share files
