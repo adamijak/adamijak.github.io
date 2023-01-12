@@ -19,7 +19,7 @@ params:
   profileMode:
           enabled: true
           title: "Welcome to adamijak blog" # optional default will be site title
-          subtitle: "Programming | Mountaineering | Others"
+          subtitle: "Full stack | Cloud | DevOps"
           imageUrl: "https://avatars.githubusercontent.com/u/24510461?v=4" # optional
           imageTitle: "Profile" # optional
           imageWidth: 200 # custom size
