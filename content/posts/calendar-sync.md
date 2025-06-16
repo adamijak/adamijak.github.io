@@ -10,9 +10,12 @@ Luckily there is an easy way how to synchronize the iCloud calendar with gnome-c
 You could use NextCloud to host your CalDAV server, but for the sake of simplicity, we will use iCloud calendar.
 The system I am running is Fedora 37 Beta with Gnome 43 and iPhone 8 with iOS 15.7.
 
+## Edit: 2025-06-16
+Evolution is no longer needed therefore **Step 2** and **Step 3** are marked as deprecated.
+
+*Credit to the rad dude Matt.*
 
 ## Step 1: Generate an App-specific password
-
 App-specific passwords are used to connect to your iCloud services.
 They are visible for a limited time and can be revoked at any time.
 To obtain an app-specific password you need to log into Apple ID
@@ -20,19 +23,28 @@ To obtain an app-specific password you need to log into Apple ID
 Go to `Sign-In and Security` -> `App-specific passwords`
 and click *plus sign* button to create a new password.
 
-## Step 2: Make sure you have Evolution installed
+## NEW Step 2: Add a calendar
+To add a new calendar go to `Settings` -> `Online Accounts` -> `Calendar, Contacts and Files (WebDav)`.
 
+Fill the form with values:
+|Key|Value|
+|-|-|
+|Server Address|https://caldav.icloud.com|
+|Username|email address for the appleID|
+|Password|the app-specific password you created|
+
+After that you hit the Sign In button and you are good to go.
+
+## DEPRECATED Step 2: Make sure you have Evolution installed
 To add a CalDAV account to gnome-calendar you need to have Evolution installed
 (If you know any other easier way, how to add CalDAV accounts to gnome-calendar, please let me know).
 
 To install Evolution on Fedora use `dnf install evolution` or for Debian-based distros use `apt-get install evolution`.
 
-## Step 3: Add a calendar account in Evolution
-
+## DEPRECATED Step 3: Add a calendar account in Evolution
 Open Evolution and go to `File` -> `New` -> `Calendar`
 
-Fill the form
-
+Fill the form:
 | Key | Value |
 |---|---|
 | Type | CalDAV |
@@ -48,7 +60,4 @@ You will be asked for password.
 Enter the app-specific password you obtained earlier and select the calendar you wish to add.
 
 ## Done
-
 Well done, you just synchronized your iCloud calendar with gnome-calendar.
-If you wish to add more than one calendar just repeat [Step 3](#Step-3:-Add-a-calendar-account-in-Evolution)
-(If you know any better way, please let me know).
